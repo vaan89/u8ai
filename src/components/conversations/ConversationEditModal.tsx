@@ -13,17 +13,17 @@ import type { ConversationType } from '@/types/conversation'
 const typeSelectList = [
   {
     value: 'continuous' as const,
-    label: 'Continuous Conversation',
+    label: '连续对话',
     icon: 'i-carbon-edt-loop',
   },
   {
     value: 'single' as const,
-    label: 'Single Conversation',
+    label: '单次对话',
     icon: 'i-carbon-connect',
   },
   {
     value: 'image' as const,
-    label: 'Image Generation',
+    label: 'ai绘画',
     icon: 'i-carbon-image',
   },
 ]
@@ -95,13 +95,13 @@ export default () => {
   return (
     <div class="p-6">
       <header class="mb-4">
-        <h1 class="font-bold">Edit Conversation</h1>
+        <h1 class="font-bold">选择对话方式</h1>
       </header>
       <main class="flex flex-col gap-3">
         <input
           ref={inputRef!}
           type="text"
-          placeholder="Untitled"
+          placeholder="请输入对话名称"
           class="w-full bg-transparent border border-base px-2 py-1 input-base focus:border-darker"
         />
         <Select
@@ -142,7 +142,7 @@ export default () => {
           </For>
         </div>
       </main>
-      <div class="fcc px-2 py-2 bg-darker border border-base mt-4 hv-base hover:border-darker" onClick={handleAdd}>Save</div>
+      <div class="fcc px-2 py-2 bg-darker border border-base mt-4 hv-base hover:border-darker" onClick={handleAdd}>设置完成</div>
     </div>
   )
 }
