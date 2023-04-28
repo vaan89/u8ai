@@ -11,15 +11,15 @@ const providerOpenAI = () => {
     globalSettings: [
       {
         key: 'token',
-        name: 'Replicate API token',
+        name: '联系站长购买微信vaan89',
         type: 'api-key',
       },
       {
         key: 'version',
-        name: 'Model Version',
-        description: 'Version hash for Stable Diffusion.',
+        name: '模型号',
+        description: '模型哈希值',
         type: 'input',
-        default: 'db21e45d3f7023abc2a46ee38a23973f6dce16bb082a930b0c49861f96d1e5bf',
+        default: '601eea49d49003e6ea75a11527209c4f510a93e2112c969d548fbb45b9c4f19f',
       },
     ],
     conversationSettings: [],
