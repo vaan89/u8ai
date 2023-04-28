@@ -13,7 +13,7 @@ export default () => {
       {!currentConversation() && null}
       {currentConversation() && (
         <div class="px-2 truncate">
-          {currentConversation() ? (currentConversation().name || 'Untitled') : ''}
+          {currentConversation() ? (currentConversation().name || '未填写') : ''}
         </div>
       )}
     </div>
