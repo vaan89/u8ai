@@ -49,7 +49,7 @@ export default () => {
         inputRef.focus()
       }}
     >
-      <div class="flex-1 op-30">Enter Something...</div>
+      <div class="flex-1 op-30">说些什么吧...</div>
       <div class="i-carbon-send op-50 text-xl" />
     </div>
   )
@@ -107,7 +107,7 @@ export default () => {
 
   const LoadingState = () => (
     <div class="max-w-base h-full fi flex-row gap-2">
-      <div class="flex-1 op-50">Thinking...</div>
+      <div class="flex-1 op-50">等我想想...</div>
       <div
         class="border border-darker px-2 py-1 rounded-md text-sm op-40 hv-base hover:bg-white"
         onClick={() => { handleAbortFetch() }}
