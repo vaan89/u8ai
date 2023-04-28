@@ -10,18 +10,18 @@ export default () => {
     <div class="fcc h-full">
       <div class="flex flex-col gap-4 w-full max-w-md mx-12 sm:mx-18 overflow-hidden">
         <div class="px-6 py-4 bg-base-100 border border-base rounded-lg">
-          <h2 class="text-xs op-30 uppercase my-2">Recents</h2>
+          <h2 class="text-xs op-30 uppercase my-2">记录</h2>
           <div class="flex flex-col items-start">
             <For each={$conversationMapSortList().slice(0, 3)}>
               {instance => (
                 <div class="fi gap-2 h-8 max-w-full text-sm hv-foreground" onClick={() => currentConversationId.set(instance.id)}>
                   <div class={instance.icon || 'i-carbon-chat'} />
-                  <div class="flex-1 truncate">{instance.name || 'Untitled'}</div>
+                  <div class="flex-1 truncate">{instance.name || '输入对话名称'}</div>
                 </div>
               )}
             </For>
             <Show when={!$conversationMapSortList().length}>
-              <div class="fi gap-2 h-8 text-sm op-20">No Recents</div>
+              <div class="fi gap-2 h-8 text-sm op-20">暂无记录</div>
             </Show>
           </div>
         </div>
@@ -30,7 +30,7 @@ export default () => {
           onClick={() => showConversationEditModal.set(true)}
         >
           <div class="i-carbon-add" />
-          <div class="flex-1 text-sm truncate">New Conversation</div>
+          <div class="flex-1 text-sm truncate">新建对话</div>
         </div>
       </div>
     </div>
