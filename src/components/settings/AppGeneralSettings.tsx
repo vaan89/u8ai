@@ -11,7 +11,7 @@ interface Props {
 const settingsUIList = [
   {
     key: 'requestWithBackend',
-    name: 'Request With Backend',
+    name: '后台存储',
     type: 'toggle',
   },
 ] as const
@@ -22,7 +22,7 @@ export default (props: Props) => {
       <h3 class="fi gap-2">
         <div class="flex-1 fi gap-1.5 overflow-hidden">
           <div class="i-carbon-settings" />
-          <div class="flex-1 text-sm truncate">General</div>
+          <div class="flex-1 text-sm truncate">全局设置</div>
         </div>
       </h3>
       <div class="mt-2 flex flex-col">
