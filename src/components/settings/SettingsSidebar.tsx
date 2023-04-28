@@ -16,7 +16,7 @@ export default () => {
   return (
     <div class="h-full flex flex-col bg-sidebar">
       <header class="h-14 fi border-b border-base px-4 text-xs uppercase">
-        Settings
+        设置
       </header>
       <main class="flex-1 overflow-auto">
         <AppGeneralSettings
@@ -36,12 +36,12 @@ export default () => {
       <footer class="h-14 fi justify-between px-3">
         <ThemeToggle />
         <div text-xs op-40 px-2>
-          <a href="#" target="_blank" rel="noreferrer" class="hv-foreground">
-            FAQ
+          <a href="https://u8ai.com" target="_blank" rel="noreferrer" class="hv-foreground">
+            加社群vaan89
           </a>
           <span class="px-1"> · </span>
-          <a href="https://github.com/ddiu8081/chatgpt-demo" target="_blank" rel="noreferrer" class="hv-foreground">
-            Github
+          <a href="https://u8ai.com" target="_blank" rel="noreferrer" class="hv-foreground">
+            U8AI.COM
           </a>
         </div>
       </footer>
