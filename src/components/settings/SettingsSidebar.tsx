@@ -36,8 +36,8 @@ export default () => {
       <footer class="h-14 fi justify-between px-3">
         <ThemeToggle />
         <div text-xs op-40 px-2>
-          <a href="https://u8ai.com" target="_blank" rel="noreferrer" class="hv-foreground">
-            加社群vaan89
+          <a href="https://www.u8ai.com/?page_id=173" target="_blank" rel="noreferrer" class="hv-foreground">
+            查询key余额
           </a>
           <span class="px-1"> · </span>
           <a href="https://u8ai.com" target="_blank" rel="noreferrer" class="hv-foreground">
