@@ -11,7 +11,7 @@ const providerOpenAI = () => {
     globalSettings: [
       {
         key: 'token',
-        name: '联系站长购买微信vaan89',
+        name: '联系站长购买key 微信vaan89',
         type: 'api-key',
       },
       {
