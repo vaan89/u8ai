@@ -9,7 +9,6 @@ import type { Provider } from '@/types/provider'
 const providerOpenAI = () => {
   const provider: Provider = {
     id: 'provider-openai',
-    icon: 'i-simple-icons-openai', // @unocss-include
     name: 'AI聊天key',
     globalSettings: [
       {
