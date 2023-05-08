@@ -7,7 +7,7 @@ const providerOpenAI = () => {
   const provider: Provider = {
     id: 'provider-stable-diffusion',
     icon: 'i-carbon-paint-brush', // @unocss-include
-    name: 'Stable Diffusion',
+    name: 'AI绘画配置',
     globalSettings: [
       {
         key: 'token',
