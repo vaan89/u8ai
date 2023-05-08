@@ -20,7 +20,7 @@ const providerOpenAI = () => {
       {
         key: 'baseUrl',
         name: '接口地址',
-        description: 'openai接口地址（勿动）',
+        description: '接口地址（勿动）',
         type: 'input',
         default: 'https://api.openai.com',
       },
