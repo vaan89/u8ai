@@ -6,7 +6,6 @@ import type { Provider } from '@/types/provider'
 const providerOpenAI = () => {
   const provider: Provider = {
     id: 'provider-stable-diffusion',
-    icon: 'i-carbon-paint-brush', // @unocss-include
     name: 'AI绘画配置',
     globalSettings: [
       {
