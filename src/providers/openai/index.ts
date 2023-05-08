@@ -10,7 +10,7 @@ const providerOpenAI = () => {
   const provider: Provider = {
     id: 'provider-openai',
     icon: 'i-simple-icons-openai', // @unocss-include
-    name: 'OpenAI',
+    name: 'AI聊天key',
     globalSettings: [
       {
         key: 'apiKey',
