@@ -5,7 +5,7 @@ import ConversationMessageClearButton from './ConversationMessageClearButton'
 export default () => {
   return (
     <header onDblClick={scrollController().scrollToTop} class="shrink-0 absolute top-0 left-0 right-0 fi justify-between bg-base-100 border-b border-base h-14 px-4">
-      <div class="fi overflow-hidden">
+    <div class="parent">  <div class="fi overflow-hidden">
         
          <ul class="mobile-nav mobile-nav-bottom" style="text-align:center;margin-top:20px;padding-left:0;">
   <li style="display:inline-block;margin:0 10px;vertical-align:middle;"><a href="https://www.u8ai.com">AI工具</a></li>
@@ -18,7 +18,18 @@ export default () => {
           onClick={() => showConversationSidebar.set(true)}
         >
           <div i-carbon-menu />
-        </div>
+        </div>  </div><style>
+      .parent {
+        text-align: center;
+      }
+      
+      .fi.overflow-hidden {
+        display: inline-block; /* 或者 display: inline-flex; */
+        text-align: left;
+        max-width: 100%; /* 可选 */
+        overflow: hidden;
+      }
+    </style>
         <ConversationHeaderInfo />
       </div>
       <div class="fi gap-1 overflow-hidden">
