@@ -24,7 +24,7 @@ export default () => {
           <div i-carbon-menu />
         </div>  
         <ConversationHeaderInfo />
-      </div>
+      </div>    </div>
       <div class="fi gap-1 overflow-hidden">
         <ConversationMessageClearButton />
         <div
