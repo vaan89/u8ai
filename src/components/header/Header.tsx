@@ -6,19 +6,9 @@ export default () => {
   return (
     <header onDblClick={scrollController().scrollToTop} class="shrink-0 absolute top-0 left-0 right-0 fi justify-between bg-base-100 border-b border-base h-14 px-4">
   <div class="fi overflow-hidden">
-        
-     <style>
-  .daohang {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    z-index: 999;
-  }
-</style>
+   
 
-<div class="daohang">
+<div class="daohang" style="position: fixed;top: 0;left: 0;right: 0;margin: 0 auto;z-index: 999;>
   <ul class="mobile-nav mobile-nav-bottom" style="text-align:center;margin-top:20px;padding-left:0;">
     <li style="display:inline-block;margin:0 10px;vertical-align:middle;"><a href="https://www.u8ai.com">AI工具</a></li>
     <li style="display:inline-block;margin:0 10px;vertical-align:middle;"><a href="https://ai.u8ai.com/">AI绘画</a></li>
