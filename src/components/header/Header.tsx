@@ -14,11 +14,14 @@ export default () => {
         </div>
         <ConversationHeaderInfo />
       </div>
-      <ul class="mobile-nav mobile-nav-bottom" style="text-align:center;margin-top:20px;padding-left:0;">
-  <li style="display:inline-block;margin:0 10px;vertical-align:middle;"><a href="https://www.u8ai.com" target="_blank">AI工具</a></li>
-  <li style="display:inline-block;margin:0 10px;vertical-align:middle;"><a href="https://ai.u8ai.com/" target="_blank">AI绘画</a></li>
-  <li style="display:inline-block;margin:0 10px;vertical-align:middle;"><a href="https://www.u8ai.com/?cat=20" target="_blank">内容</a></li>
-</ul>
+     <div style="display:flex;width:30%;">
+  <ul class="mobile-nav mobile-nav-bottom" style="text-align:center;margin-top:0px;padding-left:0;flex:1;">
+    <li style="display:inline-block;margin:0 10px;vertical-align:middle;"><a href="https://www.u8ai.com" target="_blank">AI工具</a></li>
+    <li style="display:inline-block;margin:0 10px;vertical-align:middle;"><a href="https://ai.u8ai.com/" target="_blank">AI绘画</a></li>
+    <li style="display:inline-block;margin:0 10px;vertical-align:middle;"><a href="https://www.u8ai.com/?cat=20" target="_blank">内容</a></li>
+  </ul>
+</div>
+
       <div class="fi gap-1 overflow-hidden">
         <ConversationMessageClearButton />
         <div
